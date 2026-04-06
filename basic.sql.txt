@@ -1,0 +1,28 @@
+1.CREATE database if not exists InstagramDb;
+2.USE  InstagramDb;
+
+3.create TABLE IF NOT exists users(
+userId INT PRIMARY KEY,
+userName varchar(50),
+email varchar(100)
+);
+
+4.create Table IF NOT exists Posts(
+postId INT PRIMARY KEY,
+userId INT,
+caption VARCHAR(50)
+);
+
+5.insert INTO users(userId,userName,email) values
+(101,"Deb","deb123@gmail.com"),
+(102,"sagnik","sagnik123@gmail.com"),
+(103,"riti","riti123@gmail.com");
+
+6.insert into posts(postId,userId,caption) values
+(100,101,"caption 1"), 
+(101,102,"caption 2"),
+(102,103,"caption 3");
+
+7.select * from users;
+
+8.select * from posts;
