@@ -1,0 +1,19 @@
+use college;
+
+create table student(
+phoneNumber INT unique
+);
+
+INSERT INTO student (phoneNumber) VALUES
+(101),
+(102);
+
+select * FROM STUDENT;
+
+create table student2(
+AGE INT check(AGE>18),
+rollNumber INT NOT NULL
+);
+
+insert INTO STUDENT1 (age,rollNumber) values (12,120);
+insert INTO STUDENT1 (age) values (12);
