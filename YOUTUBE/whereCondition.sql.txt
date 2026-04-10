@@ -1,0 +1,5 @@
+ DELETE FROM Employee Where department='MECHANICAL';
+ select * from employee where Age > 18 AND department='CSE'; 
+ SELECT * FROM employee where department not IN('CSE');
+ select * from employee;
+ 

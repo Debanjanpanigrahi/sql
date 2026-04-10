@@ -1,0 +1,23 @@
+create table Employee(
+ id int primary key,
+ name varchar(50),
+ Age INT,
+ department VARCHAR(50),
+ salary INT
+ );
+ 
+ insert into employee(id,name,age,department,salary) values
+ (1,'DEBANJAN',18,'CSE',15000),
+ (2,'SAGNIK',18,'ELECTRICAL',150000),
+ (3,'DEBOTTAM',18,'MECHANICAL',105000),
+ (4,'AYAN',18,'CSE',150000);
+ 
+ 
+UPDATE employee SET age=20
+WHERE id=1;
+ 
+DELETE FROM Employee Where department='MECHANICAL';
+
+SELECT * FROM employee;
+ 
+SET SQL_SAFE_UPDATES = 0;

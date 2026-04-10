@@ -1,0 +1,3 @@
+ Alter table employee add DOB varchar(20) default 'np';
+ Alter table employee modify name varchar(100);
+ Alter table employee change name emp_name varchar(100);

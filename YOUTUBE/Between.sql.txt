@@ -1,0 +1,1 @@
+select * from employee where salary BETWEEN 12000 AND 15000;
